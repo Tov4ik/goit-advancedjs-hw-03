@@ -8,7 +8,7 @@ import SimpleLightbox from 'simplelightbox';
 import { fetchImages } from './js/pixabay-api.js';
 import { renderImages } from './js/render-functions.js';
 
-const form = document.querySelector('.search-form');
+const form = document.querySelector('.form');
 const input = document.querySelector('.search-input');
 const gallery = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
